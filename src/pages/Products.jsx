@@ -110,7 +110,7 @@ const Product = () => {
     key: 'file',
     render: (file) => (
       <img
-        src={data.image}
+        src={file}
         alt="product"
         style={{ width: 60, height: 60, objectFit: 'cover', borderRadius: 4 }}
       />
