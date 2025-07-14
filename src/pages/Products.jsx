@@ -110,7 +110,7 @@ const Product = () => {
     key: 'file',
     render: (file) => (
       <img
-        src={`${API}/images/uploads/${file}`}
+        src={data.file}
         alt="product"
         style={{ width: 60, height: 60, objectFit: 'cover', borderRadius: 4 }}
       />
